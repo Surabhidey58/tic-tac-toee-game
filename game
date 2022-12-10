@@ -1,6 +1,6 @@
 import random
 
-
+#Class For The Game
 class TicTacToe:
 
     def _init_(self):
@@ -126,5 +126,6 @@ class TicTacToe:
 
 
 # starting the game
+#Driver Code
 tic_tac_toe = TicTacToe()
 tic_tac_toe.start()
